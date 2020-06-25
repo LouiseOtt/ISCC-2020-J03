@@ -1,0 +1,79 @@
+.entete{
+    border: 2px solid;
+}
+
+.imgContainer{
+    width: 75;
+    height: 75;
+    margin-left: 3%;
+}
+
+.imgContainer img{
+    width: 100%;
+    height: auto;
+}
+
+*{
+    color: DarkSlateGrey;
+}
+
+p, li{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+h1{
+    display: inline;
+    margin-left: 10%;
+    
+    font-size: 45px;
+    text-decoration-color: black;
+    text-decoration: underline;
+}
+
+h1, h2{
+    color: #8B0000;
+}
+
+.navigation{
+    text-align: center;
+    align-content: center;
+    border: 1px solid;
+}
+
+a{
+    margin-left: 18px;
+    text-decoration: aqua;
+}
+
+.competenceContainer{
+    margin-left: 15px;
+}
+
+.profilContainer{
+    border: 1px solid;
+}
+
+#profilCompetence{
+    margin-top: 10px;
+    display: flex;
+    
+}
+#pied{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid;
+    
+}
+
+.experience{
+
+}
+
+
+.reseauPro, .telMail{
+    margin-top: 15px;
+    margin-left: 20px;
+}
