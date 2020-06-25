@@ -1,56 +1,76 @@
-@font-face{
-    font-family: "nasalization-rg.";
-    src: url('assetsD03/nasalization-rg.ttf');
-}
-
-body
-{color: darkslategray;
-padding: 0% 10%;
-}
-
-body
-{background-color: aliceblue;
+*{
+    color: DarkSlateGrey;
 }
 
 h1{
-    color: #8B0000; background-color: rgba(0, 0, 0, 0.2);
-text-decoration: underline;
-text-align: center;
-font-size: 45px;
-padding: 10px;
-margin: 0;
+    color: #8B0000;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 45px;
+    text-decoration-color: black;
+    text-decoration: underline;
+    margin: 0px;
+    padding: 0px;
 }
 
-h2
-{text-align: center;}
-
-h2
-{color: #b22222;}
-
-h2
-{
-    font-size: 25px;
+p, li{
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-h2
-{text-decoration: underline;}
+@font-face {
+    font-family: "nasalization-rg";
+    src: url(nasalization-rg.ttf);
+}
 
-.page
-{background-color: darkslateblue;}
 
-p
-{ 
-    border-width: 2px;
-    border-style: solid;
+.citation{
+    border: 2px solid;
     border-color: black;
 }
 
-p li
-{
-    padding: 5%;
+h1,h2{
+    font-family: "nasalization-rg";
+    text-align: center;
 }
 
-span
-{
+
+h2{
+    color: rgb(178, 34, 34);
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+body{
+    background-color: aliceblue;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+#couleurElement{
+    color: green;
+}
+
+#listeCouleur{
     color: greenyellow;
+}
+
+
+#media
+{
+    display: flex;
+    justify-content: center;
+}
+
+.element:nth-child(1)
+{
+    flex: 1;
+}
+.element:nth-child(2)
+{
+    flex: 1;
+}
+.element:nth-child(3)
+{
+    flex: 1;
 }
